@@ -1,0 +1,22 @@
+body {
+    background-color: gray;
+}
+
+.card {
+width: 30rem;
+length: 20rem;
+border: 2px solid white;
+border-radius: 9px;
+display: flex;
+margin: 2rem;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
