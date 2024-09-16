@@ -1,22 +1,31 @@
 body {
-    background-color: gray;
+    background-image: url(https://www.wallpaperboulevard.com/Images/product/light-pink-and-white-diagonal-stripe-pr-shqh.jpg) ;
+    background: no-repeat center/100% url("https://www.wallpaperboulevard.com/Images/product/light-pink-and-white-diagonal-stripe-pr-shqh.jpg");
 }
 
 .card {
 width: 30rem;
-length: 20rem;
+height: 30rem;
 border: 2px solid white;
+background-color: pink;
 border-radius: 9px;
 display: flex;
 margin: 2rem;
-flex-direction: column;
+flex-direction: row;
 align-items: center;
 justify-content: space-evenly;
+
+
 }
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+.size {
+    width: 70%;
+    height: 50%;
 }
