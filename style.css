@@ -39,7 +39,7 @@ transition: 0.2s;
     margin: auto;
     transition: 10s;
 }
-.imagesize1 {
+#imagesize1 {
     width: 70%;
     height: 80%;
     margin: auto;
@@ -95,7 +95,7 @@ h1 {
     transition: 60s;
     transform: rotate(50turn)
 }
-.imagesize1:hover {
+#imagesize1:hover {
     transition: 10s;
     transform: scale(2) rotate(0.5turn);
 }
