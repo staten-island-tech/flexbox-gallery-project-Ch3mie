@@ -90,31 +90,31 @@ h1 {
     transition: 0.5s;
 }
 
-.imagesize:hover {
+.spin:hover {
     transition: 60s;
     transform: rotate(50turn)
 }
-#imagesize1:hover {
+#slowflip:hover {
     transition: 10s;
     transform: scale(2) rotate(0.5turn);
 }
-.imagesize2:hover {
+.transcend:hover {
     transition: 2s;
     transform: translateY(-100px)
 }
-.imagesize3:hover {
+.getsfatandgray:hover {
     transition: 2s;
     filter: grayscale(0.8);
     transform: scale(2);
 }
 
-.imagesize4:hover {
+.stretchandgray:hover {
     transition: 4s;
     filter:invert(50%);
     transform: scale(2, 0.5);
 }
 
-.imagesize5:hover {
+.hopping:hover {
     animation: jump 1s;
     animation-iteration-count: infinite;
 }
