@@ -3,7 +3,6 @@
 
 
 body {
-    background-image: url(https://www.wallpaperboulevard.com/Images/product/light-pink-and-white-diagonal-stripe-pr-shqh.jpg) ;
     background: no-repeat top/100% url("https://www.wallpaperboulevard.com/Images/product/light-pink-and-white-diagonal-stripe-pr-shqh.jpg");
     background-size: cover;
     
@@ -33,37 +32,37 @@ transition: 0.2s;
     flex-wrap: wrap;
 }
 
-.imagesize {
+.spin {
     width: 70%;
     height: 80%;
     margin: auto;
     transition: 10s;
 }
-#imagesize1 {
+#slowflip {
     width: 70%;
     height: 80%;
     margin: auto;
     transition: 2s;
 }
-.imagesize2 {
+.transcend {
     width: 70%;
     height: 80%;
     margin: auto;
     transition: 0.5s
 }
-.imagesize3 {
+.getsfatandgray {
     width: 70%;
     height: 80%;
     margin: auto;
     transition: 5s;
 }
-.imagesize4 {
+.stretchandgray {
     width: 70%;
     height: 80%;
     margin: auto;
     transition: 4s;
 }
-.imagesize5 {
+.hopping {
     width: 70%;
     height: 80%;
     margin: auto;
